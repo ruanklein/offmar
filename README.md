@@ -21,6 +21,9 @@ Requires macOS 15+, Xcode, and XcodeGen. Use the Makefile from the project root:
 ```sh
 make build  # Generate the Xcode project and compile
 make        # Compile and open the app (same as make all)
+make install # Compile and copy OffMar.app to /Applications
+make uninstall # Remove OffMar.app from /Applications
+make clean  # Remove build products and the project's Xcode cache
 ```
 
 Debug is the default configuration. For a release build, run
