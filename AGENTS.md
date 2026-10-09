@@ -26,6 +26,7 @@ Requires macOS 15+, Xcode, and XcodeGen. The project uses Swift 6.
 make build     # Generate the Xcode project and compile
 make           # Compile and open the app
 make all       # Same as make
+make test      # Generate the Xcode project and run tests
 ```
 
 Debug is the default configuration. Use `make build CONFIGURATION=Release`
@@ -38,9 +39,7 @@ Run tests after changes to conversion behavior or state management, and compile
 after UI changes:
 
 ```sh
-xcodebuild -quiet -project OffMar.xcodeproj -scheme OffMar \
-  -configuration Debug -destination 'platform=macOS,arch=arm64' \
-  -derivedDataPath build test
+make test
 ```
 
 The integration test uses the separately installed MarkItDown and skips when
@@ -57,7 +56,8 @@ it is unavailable. Do not claim integration coverage when it was skipped.
   subprocess streams, cancellation, and real CLI conversion tests.
 - `brand-spec.md`: visual direction and design tokens.
 - `README.md`: setup, usage, privacy, and limitations.
-- `Makefile`: build and launch entry points.
+- `Makefile`: build, launch, and test entry points.
+- `LICENSE`: MIT license for OffMar; preserve third-party license notices.
 
 ## SwiftUI and Design
 

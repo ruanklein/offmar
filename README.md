@@ -64,3 +64,8 @@ reported by MarkItDown and may contain paths or service messages.
 ```sh
 make test
 ```
+
+## License
+
+OffMar is licensed under the [MIT License](LICENSE).
+Third-party dependencies and vendored skills remain subject to their respective licenses.
