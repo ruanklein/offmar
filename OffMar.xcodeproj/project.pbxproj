@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E97DABF618C2A3AAD39E48 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B00C2E7364F9D5EE151BE /* Conversion.swift */; };
+		26EE5CC50E369C948EAA84F4 /* ConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBFF3956DAFB57A7D12738 /* ConversionTests.swift */; };
+		3470E3A1083316879F6FE46C /* OffMarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D3000B7CBD7664ABA4368 /* OffMarApp.swift */; };
+		7F8E017B9EDAD23E2E40E80D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04827CD1C671D9DDD44FB598 /* SettingsView.swift */; };
+		86AC3B88634B6702C2C52292 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01BF9AA6111E56FA2157F2 /* AppModel.swift */; };
+		9DE70F766EA1381E3B966F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EB1FD3ABB2B7B63768EE6F /* Assets.xcassets */; };
+		D277FA8F8E0A44F375412D28 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8144DA5F64FEB4960052AED6 /* WorkspaceView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C6667C991822351C90C0571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742B21D28209891828D8E057 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A517A5255751E4B7E35F4258;
+			remoteInfo = OffMar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04827CD1C671D9DDD44FB598 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3DEBFF3956DAFB57A7D12738 /* ConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionTests.swift; sourceTree = "<group>"; };
+		5A0B00C2E7364F9D5EE151BE /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		6B01BF9AA6111E56FA2157F2 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		79EB1FD3ABB2B7B63768EE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8144DA5F64FEB4960052AED6 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceView.swift; sourceTree = "<group>"; };
+		B00D3000B7CBD7664ABA4368 /* OffMarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffMarApp.swift; sourceTree = "<group>"; };
+		B5D985CC09145BDBD74A6609 /* OffMar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffMar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9812C179D7120A17C513AD /* OffMarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OffMarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21EA9172D521E6C6460FFA49 /* OffMar */ = {
+			isa = PBXGroup;
+			children = (
+				6B01BF9AA6111E56FA2157F2 /* AppModel.swift */,
+				79EB1FD3ABB2B7B63768EE6F /* Assets.xcassets */,
+				5A0B00C2E7364F9D5EE151BE /* Conversion.swift */,
+				B00D3000B7CBD7664ABA4368 /* OffMarApp.swift */,
+				04827CD1C671D9DDD44FB598 /* SettingsView.swift */,
+				8144DA5F64FEB4960052AED6 /* WorkspaceView.swift */,
+			);
+			path = OffMar;
+			sourceTree = "<group>";
+		};
+		BEF48E23D9904C1FABEE2657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D985CC09145BDBD74A6609 /* OffMar.app */,
+				CB9812C179D7120A17C513AD /* OffMarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C908269A8D8150A037C68C15 = {
+			isa = PBXGroup;
+			children = (
+				21EA9172D521E6C6460FFA49 /* OffMar */,
+				D13326D4DF6F37DEE2206B8E /* OffMarTests */,
+				BEF48E23D9904C1FABEE2657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D13326D4DF6F37DEE2206B8E /* OffMarTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DEBFF3956DAFB57A7D12738 /* ConversionTests.swift */,
+			);
+			path = OffMarTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EBF28C63A4D2C1C833EB338 /* OffMarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9711A8A141925DFBFCF22B1 /* Build configuration list for PBXNativeTarget "OffMarTests" */;
+			buildPhases = (
+				A3B9115BAE1D80A6D9DDF2A2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18929D43A1205B04DA8E1DD6 /* PBXTargetDependency */,
+			);
+			name = OffMarTests;
+			packageProductDependencies = (
+			);
+			productName = OffMarTests;
+			productReference = CB9812C179D7120A17C513AD /* OffMarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A517A5255751E4B7E35F4258 /* OffMar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0B8E7AEF3121537885236A2 /* Build configuration list for PBXNativeTarget "OffMar" */;
+			buildPhases = (
+				E411E7D0E64A50171D9F2BBC /* Sources */,
+				A868D8CC264E7021F8E04EDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OffMar;
+			packageProductDependencies = (
+			);
+			productName = OffMar;
+			productReference = B5D985CC09145BDBD74A6609 /* OffMar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		742B21D28209891828D8E057 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 6654FEE8F4D12B72740CBD7E /* Build configuration list for PBXProject "OffMar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C908269A8D8150A037C68C15;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BEF48E23D9904C1FABEE2657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A517A5255751E4B7E35F4258 /* OffMar */,
+				3EBF28C63A4D2C1C833EB338 /* OffMarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A868D8CC264E7021F8E04EDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE70F766EA1381E3B966F71 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3B9115BAE1D80A6D9DDF2A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EE5CC50E369C948EAA84F4 /* ConversionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E411E7D0E64A50171D9F2BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AC3B88634B6702C2C52292 /* AppModel.swift in Sources */,
+				17E97DABF618C2A3AAD39E48 /* Conversion.swift in Sources */,
+				3470E3A1083316879F6FE46C /* OffMarApp.swift in Sources */,
+				7F8E017B9EDAD23E2E40E80D /* SettingsView.swift in Sources */,
+				D277FA8F8E0A44F375412D28 /* WorkspaceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18929D43A1205B04DA8E1DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A517A5255751E4B7E35F4258 /* OffMar */;
+			targetProxy = 2C6667C991822351C90C0571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE859E8EA4AAEBC557523F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.OffMarTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OffMar.app/Contents/MacOS/OffMar";
+			};
+			name = Release;
+		};
+		3279E8DE0201A5AE57FEDF6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleDisplayName = OffMar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.OffMar;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		570C20509CAB813EE82E802D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = en;
+				INFOPLIST_KEY_CFBundleDisplayName = OffMar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.OffMar;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		590AAD00325BDFA12F796848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A8F901A479E99C4D3DAE10E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		F7E6E9C2FAE898A1828ACD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.OffMarTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OffMar.app/Contents/MacOS/OffMar";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6654FEE8F4D12B72740CBD7E /* Build configuration list for PBXProject "OffMar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8F901A479E99C4D3DAE10E2 /* Debug */,
+				590AAD00325BDFA12F796848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0B8E7AEF3121537885236A2 /* Build configuration list for PBXNativeTarget "OffMar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3279E8DE0201A5AE57FEDF6F /* Debug */,
+				570C20509CAB813EE82E802D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E9711A8A141925DFBFCF22B1 /* Build configuration list for PBXNativeTarget "OffMarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7E6E9C2FAE898A1828ACD1E /* Debug */,
+				0BE859E8EA4AAEBC557523F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742B21D28209891828D8E057 /* Project object */;
+}
