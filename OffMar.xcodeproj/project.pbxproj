@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		172EAA7C0A53BE8FC29800BB /* MarkdownResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A6C40AFD1F8E8577F98F27 /* MarkdownResultView.swift */; };
 		17E97DABF618C2A3AAD39E48 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0B00C2E7364F9D5EE151BE /* Conversion.swift */; };
 		26EE5CC50E369C948EAA84F4 /* ConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEBFF3956DAFB57A7D12738 /* ConversionTests.swift */; };
 		3470E3A1083316879F6FE46C /* OffMarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00D3000B7CBD7664ABA4368 /* OffMarApp.swift */; };
 		7F8E017B9EDAD23E2E40E80D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04827CD1C671D9DDD44FB598 /* SettingsView.swift */; };
 		86AC3B88634B6702C2C52292 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B01BF9AA6111E56FA2157F2 /* AppModel.swift */; };
 		9DE70F766EA1381E3B966F71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EB1FD3ABB2B7B63768EE6F /* Assets.xcassets */; };
+		C73079C1ED1A3EEAAD5C5B81 /* MarkdownView in Frameworks */ = {isa = PBXBuildFile; productRef = 7B992705BAB6F7209C8B1CF6 /* MarkdownView */; };
 		D277FA8F8E0A44F375412D28 /* WorkspaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8144DA5F64FEB4960052AED6 /* WorkspaceView.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +36,21 @@
 		79EB1FD3ABB2B7B63768EE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8144DA5F64FEB4960052AED6 /* WorkspaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceView.swift; sourceTree = "<group>"; };
 		B00D3000B7CBD7664ABA4368 /* OffMarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffMarApp.swift; sourceTree = "<group>"; };
+		B2A6C40AFD1F8E8577F98F27 /* MarkdownResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownResultView.swift; sourceTree = "<group>"; };
 		B5D985CC09145BDBD74A6609 /* OffMar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OffMar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9812C179D7120A17C513AD /* OffMarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OffMarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231620E71ED873507A8320E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C73079C1ED1A3EEAAD5C5B81 /* MarkdownView in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		21EA9172D521E6C6460FFA49 /* OffMar */ = {
@@ -45,6 +59,7 @@
 				6B01BF9AA6111E56FA2157F2 /* AppModel.swift */,
 				79EB1FD3ABB2B7B63768EE6F /* Assets.xcassets */,
 				5A0B00C2E7364F9D5EE151BE /* Conversion.swift */,
+				B2A6C40AFD1F8E8577F98F27 /* MarkdownResultView.swift */,
 				B00D3000B7CBD7664ABA4368 /* OffMarApp.swift */,
 				04827CD1C671D9DDD44FB598 /* SettingsView.swift */,
 				8144DA5F64FEB4960052AED6 /* WorkspaceView.swift */,
@@ -105,6 +120,7 @@
 			buildPhases = (
 				E411E7D0E64A50171D9F2BBC /* Sources */,
 				A868D8CC264E7021F8E04EDD /* Resources */,
+				231620E71ED873507A8320E0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +128,7 @@
 			);
 			name = OffMar;
 			packageProductDependencies = (
+				7B992705BAB6F7209C8B1CF6 /* MarkdownView */,
 			);
 			productName = OffMar;
 			productReference = B5D985CC09145BDBD74A6609 /* OffMar.app */;
@@ -137,6 +154,9 @@
 			);
 			mainGroup = C908269A8D8150A037C68C15;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				162692916099EC75B05DDA5D /* XCRemoteSwiftPackageReference "MarkdownView" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = BEF48E23D9904C1FABEE2657 /* Products */;
 			projectDirPath = "";
@@ -174,6 +194,7 @@
 			files = (
 				86AC3B88634B6702C2C52292 /* AppModel.swift in Sources */,
 				17E97DABF618C2A3AAD39E48 /* Conversion.swift in Sources */,
+				172EAA7C0A53BE8FC29800BB /* MarkdownResultView.swift in Sources */,
 				3470E3A1083316879F6FE46C /* OffMarApp.swift in Sources */,
 				7F8E017B9EDAD23E2E40E80D /* SettingsView.swift in Sources */,
 				D277FA8F8E0A44F375412D28 /* WorkspaceView.swift in Sources */,
@@ -419,6 +440,25 @@
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		162692916099EC75B05DDA5D /* XCRemoteSwiftPackageReference "MarkdownView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/LiYanan2004/MarkdownView.git";
+			requirement = {
+				kind = exactVersion;
+				version = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B992705BAB6F7209C8B1CF6 /* MarkdownView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 162692916099EC75B05DDA5D /* XCRemoteSwiftPackageReference "MarkdownView" */;
+			productName = MarkdownView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 742B21D28209891828D8E057 /* Project object */;
 }

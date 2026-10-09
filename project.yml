@@ -7,11 +7,17 @@ settings:
   base:
     SWIFT_VERSION: "6.0"
     CODE_SIGNING_ALLOWED: NO
+packages:
+  MarkdownView:
+    url: https://github.com/LiYanan2004/MarkdownView.git
+    exactVersion: 3.0.0
 targets:
   OffMar:
     type: application
     platform: macOS
     sources: [OffMar]
+    dependencies:
+      - package: MarkdownView
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: dev.local.OffMar

@@ -177,15 +177,8 @@ private struct ResultView: View {
             }.padding(24)
             Divider()
             if job.status == .completed {
-                ScrollView([.horizontal, .vertical]) {
-                    Text(job.markdown.isEmpty ? "(Empty Markdown output)" : job.markdown)
-                        .font(.system(size: 13, design: .monospaced))
-                        .textSelection(.enabled)
-                        .frame(maxWidth: .infinity, alignment: .topLeading)
-                        .padding(24)
-                }
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
-                .background(.background)
+                MarkdownResultView(markdown: job.markdown)
+                    .id(job.id)
             } else if job.status == .converting {
                 VStack(spacing: 16) {
                     ProgressView()

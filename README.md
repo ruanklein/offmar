@@ -16,7 +16,7 @@ A native macOS utility for the separately installed [Microsoft MarkItDown CLI](h
 
 ## Build
 
-Requires macOS 15+, Xcode, and XcodeGen. Use the Makefile from the project root:
+Requires macOS 15+, Xcode with Swift 6.2+, and XcodeGen. Use the Makefile from the project root:
 
 ```sh
 make build  # Generate the Xcode project and compile
@@ -45,7 +45,11 @@ It never installs or updates the CLI for you.
 ## Use
 
 Add or drop regular files, adjust Options if needed, then choose Convert Queue
-(Cmd+R). Select a result to inspect the raw Markdown, copy it, or save a `.md` file.
+(Cmd+R). Select a result and switch between Source (raw Markdown) and Preview
+(rendered Markdown). Source is the default when selecting a new result. Both
+views are read-only; Copy and Save always use the original Markdown. Preview
+blocks remote HTTP/HTTPS images without downloading them. Links open only when
+clicked. Copy the result or save a `.md` file for use elsewhere.
 The queue is sequential. Cancellation stops the current CLI process and leaves
 remaining files queued. Queue Again reprocesses a completed, failed, or cancelled
 file. Files and conversion results are kept in memory only; the executable path
@@ -72,3 +76,5 @@ make test
 
 OffMar is licensed under the [MIT License](LICENSE).
 Third-party dependencies and vendored skills remain subject to their respective licenses.
+Markdown previews use [MarkdownView](https://github.com/LiYanan2004/MarkdownView)
+(MIT license) and its dependencies.
