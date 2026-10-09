@@ -64,9 +64,10 @@ struct WorkspaceView: View {
                     ResultView(job: job, model: model)
                 } else {
                     ContentUnavailableView {
-                        Label("Documents to Markdown", systemImage: "doc.text")
+                        Label("Convert to Markdown", systemImage: "doc.text")
                     } description: {
-                        Text("Add PDF, Office, HTML, text, or other supported files.\nMarkItDown converts them into Markdown for your next workflow.")
+                        Text("Add files to get started.")
+                            .font(.callout.weight(.regular))
                     } actions: {
                         Button("Add Files…") { importing = true }
                             .buttonStyle(.borderedProminent)
